@@ -1,0 +1,27 @@
+TAREAS
+
+Reajustar GAM marginal
+	Seleccionar variables (mismas que en edge-core?)
+	No interactuar todo por veg_type
+	Definir separación de píxeles en base a la corr espacial?
+
+	Hacer gráficos
+	Hacer 3 imágenes de burnprob en mapas de cholila
+
+Ajustar clogit bayesiano jerárquico. OK, terminar de definir si se modela la
+distancia entre los pares.
+Creo que me parece mejor no modelar distancia. Es medio imposible saber
+qué está bien. Porque los fuegos grandes son más distantes, pero quizás
+también son más diferentes no solamente por la distancia, sino también porque
+el fuego quema "diferenciando" más.
+
+Otra es aplicar a los datos una "corrección" por distancia. Es decir, alterarlos
+(arrimándolos) para que su diferencia absoluta sea la esperada para su
+distancia. Como quitarle a la diferencia el efecto de la distancia.
+
+Esa corrección por distancia fue aplicada y los resultados son iguales. 
+quizás se pueda mostrar el modelo más simple y ya.
+
+Mirar bien los años y su FWI, a ver si hacemos categorías
+
+
